@@ -1,0 +1,55 @@
+<div class="container-fluid">
+  <!-- Page Heading -->
+  <h1 class="h3 mb-2 text-gray-800">Users Page</h1>
+
+  <!-- DataTales Example -->
+  <div class="card shadow mb-4">
+    <div class="card-body py-3">
+      <div class="mb-3">
+        <a href="/users/create" class="btn btn-success btn-icon-split">
+          <span class="icon text-white-50">
+            <i class="fas fa-plus"></i>
+          </span>
+          <span class="text">Add user</span>
+        </a>
+      </div>
+      <div class="table-responsive">
+        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Date of Birth</th>
+              <th>Gender</th>
+              <th>Address</th>
+              <th>Country</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{#each users}}
+            <tr>
+              <td>{{this.firstName}}</td>
+              <td>{{this.lastName}}</td>
+              <td>{{this.dob}}</td>
+              <td>{{this.gender}}</td>
+              <td>{{this.address}}</td>
+              <td>{{this.country}}</td>
+              <td>
+                <a href="/users/edit/{{this.id}}">
+                  <button class="mr-2 btn btn-success btn-circle"><i class="fa fa-edit"></i></button>
+                </a>
+                <button class="btn btn-danger btn-circle" onclick="deleteUser('{{this.id}}')">
+                  <i class="fa fa-trash"></i>
+                </button>
+              </td>
+            </tr>
+            {{/each}}
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+</div>

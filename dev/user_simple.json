@@ -1,0 +1,57 @@
+[
+  {
+    "firstName": "Nhung",
+    "lastName": "Nguyen",
+    "dob": "20/08/1991",
+    "gender": "Female",
+    "email": "nhungast@gmail.com",
+    "country": "VN",
+    "zipcode": "700000",
+    "address": "131 XVNT",
+    "password": "Sandworm1$"
+  },
+  {
+    "firstName": "Nguyen",
+    "lastName": "Nguyen",
+    "dob": "11/11/1989",
+    "gender": "Male",
+    "email": "nguyennguyen@gmail.com",
+    "country": "VN",
+    "zipcode": "700000",
+    "address": "District 9",
+    "password": "Sandworm1$"
+  },
+  {
+    "firstName": "Trang",
+    "lastName": "Nguyen",
+    "dob": "24/04/1993",
+    "gender": "Female",
+    "email": "trangnguyen@gmail.com",
+    "country": "VN",
+    "zipcode": "700000",
+    "address": "Gia Lai Town",
+    "password": "Sandworm1$"
+  },
+  {
+    "firstName": "Suong",
+    "lastName": "Vo",
+    "dob": "20/08/1966",
+    "gender": "Female",
+    "email": "suongvo@gmail.com",
+    "country": "VN",
+    "zipcode": "700000",
+    "address": "Gia Lai Town",
+    "password": "Sandworm1$"
+  },
+  {
+    "firstName": "Quang",
+    "lastName": "Nguyen",
+    "dob": "26/04/1964",
+    "gender": "Male",
+    "email": "quanguyen@gmail.com",
+    "country": "VN",
+    "zipcode": "700000",
+    "address": "Gia Lai Town",
+    "password": "Sandworm1$"
+  }
+]
