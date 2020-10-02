@@ -175,3 +175,21 @@ module.exports.updatePassword = catchError(async (req, res, next) => {
   // 3. If so, update password.
   // 4. Log user in, send jwt.
 });
+
+const sendToken = (user, statusCode, res) => {
+  const token = signToken(user.id);
+
+  const cookieOptions = {
+    // expires: '',
+    // secure: true,
+    // httpOnly: true,
+  };
+
+  res.cookie('jwt', token, cookieOptions);
+  res.status(statusCode).json({
+    status: 'sucess',
+    data: {
+      user,
+    },
+  });
+};
