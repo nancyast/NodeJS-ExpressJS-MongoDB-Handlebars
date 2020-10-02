@@ -1,0 +1,8 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "rules": {
+    "no-unused-vars": "error"
+  }
+}
