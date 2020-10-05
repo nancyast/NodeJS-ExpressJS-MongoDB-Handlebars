@@ -15,7 +15,7 @@ class Email {
         service: 'SendGrid',
         auth: {
           user: 'apikey',
-          pass: '',
+          pass: 'pass',
         },
       });
 
